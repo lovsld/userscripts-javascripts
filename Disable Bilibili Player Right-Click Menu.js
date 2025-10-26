@@ -48,6 +48,6 @@
     removeAd();
 
     // 监听后续动态加载（B站首页经常异步刷新内容）
-    const observer = new MutationObserver(() => removeAd());
-    observer.observe(document.body, { childList: true, subtree: true });
+    // const observer = new MutationObserver(() => removeAd());
+    // observer.observe(document.body, { childList: true, subtree: true });
 })();
