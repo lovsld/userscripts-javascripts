@@ -43,11 +43,10 @@
             console.log(`[Userscript] 已删除 ${ads.length} 个广告节点`);
         }
     }
+    setTimeout(() => {
+        removeAd();
+        console.log('[Userscript] 已启动广告检测与删除');
+    }, 2000); // 延迟 2000 毫秒（即 2 秒）
 
-    // 页面初始加载后尝试删除
-    removeAd();
 
-    // 监听后续动态加载（B站首页经常异步刷新内容）
-    // const observer = new MutationObserver(() => removeAd());
-    // observer.observe(document.body, { childList: true, subtree: true });
 })();
