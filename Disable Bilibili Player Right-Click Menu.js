@@ -31,3 +31,23 @@
 
     observer.observe(document.body, { childList: true, subtree: true });
 })();
+
+(function() {
+    'use strict';
+
+    // 删除匹配到的广告节点
+    function removeAd() {
+        const ads = document.querySelectorAll('.video-card-ad-small');
+        if (ads.length > 0) {
+            ads.forEach(ad => ad.remove());
+            console.log(`[Userscript] 已删除 ${ads.length} 个广告节点`);
+        }
+    }
+
+    // 页面初始加载后尝试删除
+    removeAd();
+
+    // 监听后续动态加载（B站首页经常异步刷新内容）
+    const observer = new MutationObserver(() => removeAd());
+    observer.observe(document.body, { childList: true, subtree: true });
+})();
