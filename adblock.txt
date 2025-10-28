@@ -1,0 +1,15 @@
+https://i2.hdslb.com/bfs/banner/*
+https://i1.hdslb.com/bfs/banner/*
+https://i0.hdslb.com/bfs/banner/*
+https://i0.hdslb.com/bfs/sycp/*
+https://i1.hdslb.com/bfs/sycp/*
+https://i2.hdslb.com/bfs/sycp/*
+https://i0.hdslb.com/bfs/game/*
+https://i1.hdslb.com/bfs/game/*
+https://i2.hdslb.com/bfs/game/*
+https://i0.hdslb.com/bfs/activity-plat/*
+https://i1.hdslb.com/bfs/activity-plat/*
+https://i2.hdslb.com/bfs/activity-plat/*
+https://app.bilibili.com/*
+https://static.cloudflareinsights.com/beacon.min.js/*
+https://fundingchoicesmessages.google.com/*
