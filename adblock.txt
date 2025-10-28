@@ -13,3 +13,6 @@ https://i2.hdslb.com/bfs/activity-plat/*
 https://app.bilibili.com/*
 https://static.cloudflareinsights.com/beacon.min.js/*
 https://fundingchoicesmessages.google.com/*
+
+
+http://www.2265.com/*
