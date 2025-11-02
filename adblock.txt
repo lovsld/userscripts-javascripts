@@ -19,3 +19,5 @@ http://www.2265.com/*
 https://ads-feedback.yahoo.co.jp/*
 https://apm.yahoo.jp/*
 https://apm.yahoo.co.jp/*
+https://dynamic-yda.c.yimg.jp/*
+https://im.c.yimg.jp/*
